@@ -1,7 +1,6 @@
 {
-  "topRight": "5,5",
   "firstProbe": {
-    "initialPosition": "1,1,N",
+    "initialPosition": "1,2,N",
     "directions": "L,M,L,M,L,M,L,M,M"
   },
   "seccondProbe": {
