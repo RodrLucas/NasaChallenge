@@ -17,12 +17,13 @@ export class Folder {
   }
 
   static readFile({ COORDS_PATH, OPTIONS }, dataFolder: string[]) {
-    const dataFiles = dataFolder.reduce((acc: any, name): string[] => {
-      const FILE_PATH = `${COORDS_PATH + "/" + name}`;
-      acc.push(fs.readFileSync(FILE_PATH, OPTIONS));
-      return acc;
-    }, []);
-
-    return dataFiles;
+    console.log('dataFolder', dataFolder)
+    dataFolder.forEach((fileName) => {
+      const FILE_PATH = `${COORDS_PATH + "/" + fileName}`
+      fs.readFile(FILE_PATH, OPTIONS, (err, dataFile: string) => {
+        if(err) console.error(err)
+        return console.log(JSON.parse(dataFile))
+      })
+    })
   }
 }

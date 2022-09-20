@@ -8,6 +8,6 @@ const EXIT_FILES_PATH = path.join(__dirname, "EXIT_COORDS")
 Folder.createDir(EXIT_FILES_PATH)
 const dataFolder = Folder.readDir({COORDS_PATH, OPTIONS})
 const dataFiles = Folder.readFile({COORDS_PATH, OPTIONS}, dataFolder)
-console.log('dataFiles', dataFiles.toString())
 
+console.log('dataFiles', dataFiles)
 
