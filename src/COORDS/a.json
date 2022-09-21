@@ -1,10 +1,10 @@
 {
   "firstProbe": {
     "initialPosition": "1,2,N",
-    "directions": "L,M,L,M,L,M,L,M,M"
+    "moviments": "L,M,L,M,L,M,L,M,M"
   },
   "seccondProbe": {
     "initialPosition": "3,3,E",
-    "directions": "M,M,R,M,M,R,M,R,R,M"
+    "moviments": "M,M,R,M,M,R,M,R,R,M"
   }
 }

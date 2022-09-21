@@ -1,5 +1,5 @@
 export interface IFinalPositionProps {
-    x: number;
-    y: number;
-    direction: string;
-  }
+  x: number;
+  y: number;
+  direction: string;
+}

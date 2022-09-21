@@ -10,5 +10,10 @@
   "scripts": {
     "test": "jest",
     "dev": "ts-node-dev --watch --respawn --exit-child --transpile-only  src/index.ts "
+  },
+  "devDependencies": {
+    "@types/jest": "^29.0.3",
+    "jest": "^29.0.3",
+    "ts-jest": "^29.0.1"
   }
 }

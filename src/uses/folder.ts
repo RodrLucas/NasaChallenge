@@ -6,7 +6,7 @@ export class Folder {
     return dataFolder;
   }
 
-  static readFile({ COORDS_PATH, OPTIONS }, dataFolder: string[]) {
+  static readFile({ COORDS_PATH }, dataFolder: string[]) {
     let results = dataFolder.reduce((acc: string[], file) => {
       const FILE_PATH = `${COORDS_PATH + "/" + file}`;
 
