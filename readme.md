@@ -27,6 +27,15 @@ A posição é representada por dois inteiros e uma letra separados por espaços
 A saída deverá contar uma linha para cada sonda, na mesma ordem de entrada, indicando sua coordenada final e direção.
 
 
+### EXEMPLOS
+
+Entrada:
+1 2 N
+L M L M L M L M M
+
+Saída:
+1 3 N
+
 ## 🤝 Colaboradores
 
 Colaboradores do projeto:
