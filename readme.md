@@ -30,7 +30,7 @@ A saída deverá contar uma linha para cada sonda, na mesma ordem de entrada, in
 ### EXEMPLOS
 
 Entrada:
-1 2 N
+1 2 N <br />
 L M L M L M L M M
 
 Saída:
